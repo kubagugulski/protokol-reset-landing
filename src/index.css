@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0d0d0d] text-gray-100 font-sans antialiased selection:bg-cyan-500 selection:text-black;
+    background-image: 
+      linear-gradient(rgba(0, 112, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 112, 255, 0.05) 1px, transparent 1px);
+    background-size: 30px 30px;
+    background-position: center center;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3);
+  }
+  .box-glow {
+    box-shadow: 0 0 15px rgba(0, 112, 255, 0.4), inset 0 0 10px rgba(0, 112, 255, 0.1);
+  }
+  .box-glow-strong {
+    box-shadow: 0 0 30px rgba(0, 112, 255, 0.6), inset 0 0 20px rgba(0, 112, 255, 0.2);
+  }
+}
