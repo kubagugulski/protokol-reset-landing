@@ -61,7 +61,7 @@ export default function Landing() {
             &gt; Critical System Warning
           </div>
           <h1 className="text-4xl md:text-6xl md:leading-[1.1] font-black uppercase tracking-tight text-white">
-            Twoje skupienie zostało <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0070ff] to-cyan-400">zhakowane</span>. 
+            Twoje skupienie zostało <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0070ff] to-cyan-400">zaburzone</span>. 
             Czas na <br/>
             <span className="border-b-4 border-[#0070ff]">twardy reset</span> systemu.
           </h1>
@@ -267,10 +267,10 @@ export default function Landing() {
             </div>
           </div>
           
-          <button className="w-full bg-[#0070ff] hover:bg-cyan-400 text-white hover:text-black font-bold uppercase tracking-widest px-8 md:px-12 py-6 transition-all box-glow font-mono text-lg md:text-xl flex items-center justify-center gap-4 group">
+          <a href="https://buy.stripe.com/8x2dR26zXcX5dTw1QydfG00" className="w-full bg-[#0070ff] hover:bg-cyan-400 text-white hover:text-black font-bold uppercase tracking-widest px-8 md:px-12 py-6 transition-all box-glow font-mono text-lg md:text-xl flex items-center justify-center gap-4 group">
             [ Wdrażam Protokół Reset ]
             <Lock className="w-6 h-6" />
-          </button>
+          </a>
           
           <div className="mt-6 flex flex-col items-center gap-2 font-mono text-xs text-gray-500 uppercase">
             <div className="flex items-center gap-2"><BookOpen className="w-4 h-4"/> Natychmiastowy dostęp PDF na e-mail</div>
