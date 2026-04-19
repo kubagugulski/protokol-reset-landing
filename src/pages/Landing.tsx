@@ -263,7 +263,7 @@ export default function Landing() {
           <div className="my-10 flex flex-col items-center justify-center">
             <div className="text-sm font-mono text-gray-500 uppercase tracking-widest line-through mb-2">Standardowa cena: 129 PLN</div>
             <div className="text-6xl md:text-8xl font-black text-white px-8 py-4 border-2 border-cyan-500 box-glow bg-black">
-              69 <span className="text-2xl md:text-4xl text-cyan-400">PLN</span>
+              59 <span className="text-2xl md:text-4xl text-cyan-400">PLN</span>
             </div>
           </div>
           
