@@ -23,33 +23,83 @@ export default function Terms() {
           </h1>
 
           <div className="space-y-6 font-mono text-sm leading-relaxed text-gray-400">
-            <section>
-              <h2 className="text-white text-lg font-bold mb-2 uppercase tracking-widest">1. Postanowienia Ogólne</h2>
-              <p>1.1. Niniejszy dokument określa protokoły dostępu do produktu "Protokół Reset", obsługiwanego drogą elektroniczną.</p>
-              <p>1.2. Transakcja wiąże się z jednorazową opłatą za dostęp do zasobów cyfrowych (PDF).</p>
-            </section>
-            
-            <section>
-              <h2 className="text-white text-lg font-bold mb-2 uppercase tracking-widest">2. Dostęp i Wymagania Techniczne</h2>
-              <p>2.1. Do poprawnego rozszyfrowania plików potrzebny jest czytnik PDF (np. Adobe Acrobat) lub nowoczesna przeglądarka podłączona do sieci.</p>
-              <p>2.2. Dostęp zostaje przyznany do 5 minut (w standardowych warunkach obciążenia serwera) po uzyskaniu weryfikacji operacji przez operatora płatności.</p>
-            </section>
-            
-            <section>
-              <h2 className="text-white text-lg font-bold mb-2 uppercase tracking-widest">3. Reklamacje i Odstąpienie od Umowy</h2>
-              <p>3.1. Ze względu na w pełni cyfrowy charakter i natychmiastowy dostęp do wiedzy, z chwilą nadania dostępu konsument traci prawo do odstąpienia od umowy w modelu klasycznym. Wymagane jest zaznaczenie odpowiedniej zgody podczas procesu w kasie.</p>
-              <p>3.2. Reklamacje wynikające z awarii infrastruktury (np. niedostarczenie linku) rozpatrywane są priorytetowo (do 24h) po zgłoszeniu na adres wsparcia.</p>
-            </section>
+            <div className="prose prose-stone max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-rose-100">
+          <h2 className="text-2xl font-bold mt-0 mb-4">§ 1 Informacje ogólne.</h2>
+          <p className="mb-4 text-stone-700">
+            1. protokolreset.pl jest sklepem internetowym, którego właścicielem jest firma Jakub Gugulski, NIP: 6821811984 z siedzibą pod adresem Ratajów 30, 32-090 Słomniki. Adres email: protokolreset@gmail.com. Regulamin określa zasady kupowania produktów na stronie protokolreset.pl.
+          </p>
+          <p className="mb-4 text-stone-700">
+            2. Dostęp do serwisu jest wolny – każdy może przeglądać jego zawartość, jednak w momencie złożenia zamówienia, osoba taka staje się Klientem i oświadcza, iż zapoznała się z niniejszym Regulaminem oraz Polityką prywatności i w pełni się zgadza z owymi postanowieniami, w innym przypadku zaleca się opuszczenie serwisu.
+          </p>
+          <p className="mb-4 text-stone-700">
+            3. Do korzystania z Serwisu protokolreset.pl wymagane są standardowe urządzenia wraz z oprogramowaniem, pozwalające na przeglądanie stron WWW, a także posiadanie skrzynki pocztowej email oraz możliwości i umiejętności komunikowania się za pośrednictwem poczty elektronicznej.
+          </p>
 
-            <section>
-              <h2 className="text-white text-lg font-bold mb-2 uppercase tracking-widest">4. Prawo Własności Intelektualnej</h2>
-              <p>4.1. Kod źródłowy metody (treść ebooka) stanowi własność intelektualną. Zakazuje się jego dystrybucji, modyfikacji lub bezprawnego kopiowania na serwery stron trzecich.</p>
-            </section>
-            
-            <section className="mt-12 pt-8 border-t border-gray-800 text-xs text-gray-600">
-              <p>Ostatnia aktualizacja plików: 16 APR 2026</p>
-              <p>[ KONIEC ZAPISU ]</p>
-            </section>
+          <h2 className="text-2xl font-bold mt-8 mb-4">§ 2 Przedmiot serwisu</h2>
+          <p className="mb-4 text-stone-700">
+            1. Przedmiotem Serwisu jest dystrybucja produktów ebook oraz treści publikowanych na łamach Serwisu protokolreset.pl. Jest on dostarczany do użytkownika dzięki poczcie elektronicznej. Produkt jest wysyłany do klientów w momencie zaksięgowania płatności.
+          </p>
+          <p className="mb-4 text-stone-700">
+            2. Pod pojęciem ‚ebook’ należy rozumieć publikację elektroniczną w postaci pliku komputerowego, będącą odpowiednikiem publikacji treści dokonywanych w tradycyjnych formach (np. książka).
+          </p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">§ 3 Zasady składania zamówień i korzystania z serwisu.</h2>
+          <p className="mb-4 text-stone-700">
+            1. Za pomocą serwisu protokolreset.pl można nabyć oferowany produkt (Ebook).
+          </p>
+          <p className="mb-4 text-stone-700">
+            2. Klient, chcąc złożyć zamówienie musi być osobą pełnoletnią posiadającą pełną zdolność do czynności prawnych.
+          </p>
+          <p className="mb-4 text-stone-700">
+            3. Do realizacji Transakcji konieczne jest złożenie zamówienia poprzez aktywowanie widocznych na stronie Serwisu odpowiednich opcji dostępnych przy ofercie Ebooka i dalsze postępowanie zgodnie z wskazówkami podawanymi zamawiającym na każdym etapie procedury składania zamówienia.
+          </p>
+          <p className="mb-4 text-stone-700">
+            4. Warunkiem niezbędnym do skutecznego złożenia zamówienia jest podanie niezbędnych danych i informacji w Serwisie oraz wykonywanie innych czynności każdorazowo dokładnie opisanych na łamach Serwisu lub w korespondencji elektronicznej.
+          </p>
+          <p className="mb-4 text-stone-700">
+            5. Zamówienia realizowane są po otrzymaniu przez Administratora serwisu należności uiszczanej dostępnymi w Serwisie kanałami płatności.
+          </p>
+          <p className="mb-4 text-stone-700">
+            6. Klient nie ma prawa udostępniać zakupionego Ebooka osobom trzecim. Każdy Klient nabywający Ebooka zobowiązany jest dbać o to, aby żadne inne nieupoważnione osoby nie miały do niego dostępu w ten sposób, aby mogły go powielać, dystrybuować bez zgody Sprzedawcy albo w inny sposób niezgodny z zakresem udzielonych praw go wykorzystywać, gdyż w przypadku wykrycia takich sytuacji, Sprzedawca może kierować roszczenia z tego tytułu względem znanego mu nabywcy Ebooka, z tytułu łamania praw autorskich.
+          </p>
+          <p className="mb-4 text-stone-700">
+            7. Wszelkie Ebooki udostępniane w serwisie – odpłatnie lub nieodpłatnie – podlegają ochronie przewidzianej w ustawie o prawie autorskim i prawach pokrewnych (Dz.U. 1994 Nr 24 poz. 83).
+          </p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">§ 4 Reklamacje i zwroty.</h2>
+          <p className="mb-4 text-stone-700">
+            1. Zgłoszenia reklamacyjne będą na bieżąco rozpatrywane przez Sprzedawcę w terminie nie dłuższym niż 14 dni od otrzymania zgłoszenia reklamacyjnego, jednak Sprzedawca zastrzega sobie prawo pozostawienia reklamacji bez odpowiedzi, jeżeli dotyczy ona dysfunkcji wynikających z nieznajomości Regulaminu, niezastosowania się przez Użytkownika do udzielanych wskazówek oraz informacji ukazujących się na bieżąco na łamach Serwisu.
+          </p>
+          <p className="mb-4 text-stone-700">
+            2. Prawo odstąpienia od umowy zawartej na odległość nie przysługuje nabywcy w przypadku produktów, które z uwagi na charakter nie mogą zostać zwrócone. Brak możliwości zwrotu dotyczy publikacji elektronicznych.
+          </p>
+          <p className="mb-4 text-stone-700">
+            3. Reklamacje można składać drogą elektroniczną pod wskazany adres: protokolreset@gmail.com.
+          </p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">§ 5 Postanowienia ogólne.</h2>
+          <p className="mb-4 text-stone-700">
+            1. Mimo dokładania wszelkich starań jakościowych i weryfikacyjnych, Administrator nie odpowiada w maksymalnie szerokim zakresie, jak tylko pozwalają na to obowiązujące przepisy prawa, za treści przekazywane i publikowane na łamach Serwisu przez Użytkowników oraz inne osoby, za ich prawdziwość, rzetelność oraz autentyczność wszelkich materiałów nie pochodzących od Administratora lub przez niego autoryzowanych.
+          </p>
+          <p className="mb-4 text-stone-700">
+            2. Administrator nie odpowiada za zdarzenia i wydarzenia oraz ich skutki, jakie mogą mieć lub miały miejsce w świecie rzeczywistym w wyniku korzystania z Serwisu, stosowania się do treści zawartych w ebookach oraz w informacjach publikowanych na łamach Serwisu.
+          </p>
+          <p className="mb-4 text-stone-700">
+            3. Administratorem danych osobowych Klientów uzyskanych przez Sprzedawcę podczas Transakcji jest Sprzedawca. Dane osobowe przetwarzane będą przez Sprzedawcę wyłącznie w celu realizacji zamówień przez Sprzedawcę. Klientowi, przysługuje prawo dostępu do treści swoich danych oraz ich poprawiania. Każdej osobie przysługuje prawo do kontroli przetwarzania danych, które jej dotyczą, zawartych w zbiorach danych, a zwłaszcza prawo do wniesienia, w przypadkach wymienionych w art. 23 ust. 1 pkt 4 i 5 ustawy o ochronie danych osobowych, pisemnego, umotywowanego żądania zaprzestania przetwarzania jej danych ze względu na jej szczególną sytuację.
+          </p>
+          <p className="mb-4 text-stone-700">
+            4. Sprzedawca zastrzega sobie prawo do czasowego całkowitego lub częściowego wyłączenia Serwisu w celu jego ulepszenia, dodawania produktów lub przeprowadzania konserwacji, bez wcześniejszego uprzedzania.
+          </p>
+          <p className="mb-4 text-stone-700">
+            5. Sprzedawca dołożył wszelkich starań, aby zawarte w Ebookach informacje były prawdziwe i rzetelne, ale wyłącza całkowitą odpowiedzialność za działanie produktów sprzedawanych w ramach serwisu www.protokolreset.pl.
+          </p>
+          <p className="mb-4 text-stone-700">
+            6. Wszelkie postanowienia niniejszego Regulaminu mogą być w każdej chwili zmieniane przez Sprzedawcę, bez podawania przyczyn. Zmiany będą publikowane na bieżąco w postaci ujednoliconego tekstu Regulaminu na łamach Serwisu wraz z informacją o ich dokonaniu.
+          </p>
+          <p className="mb-4 text-stone-700">
+            7. Sprzedawca nie ponosi odpowiedzialności za utratę danych Serwisu zgromadzonych w systemach informatycznych Sprzedawcy, spowodowanych awarią sprzętu, dysfunkcją sieci Internet, utratą na skutek działania osób trzecich.
+          </p>
+        </div>
           </div>
         </div>
       </main>
