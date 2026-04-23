@@ -26,7 +26,7 @@ export default function Terms() {
             <div className="prose prose-stone max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-rose-100">
           <h2 className="text-2xl font-bold mt-0 mb-4">§ 1 Informacje ogólne.</h2>
           <p className="mb-4 text-stone-700">
-            1. protokolreset.pl jest sklepem internetowym, którego właścicielem jest firma Jakub Gugulski, NIP: 6821811984 z siedzibą pod adresem Ratajów 30, 32-090 Słomniki. Adres email: protokolreset@gmail.com. Regulamin określa zasady kupowania produktów na stronie protokolreset.pl.
+            1. protokolreset.pl jest sklepem internetowym, którego właścicielem jest firma Jakub Gugulski, NIP: 6821811984 z siedzibą pod adresem Ratajów 30, 32-090 Słomniki. Adres email: projektreset1@gmail.com. Regulamin określa zasady kupowania produktów na stronie protokolreset.pl.
           </p>
           <p className="mb-4 text-stone-700">
             2. Dostęp do serwisu jest wolny – każdy może przeglądać jego zawartość, jednak w momencie złożenia zamówienia, osoba taka staje się Klientem i oświadcza, iż zapoznała się z niniejszym Regulaminem oraz Polityką prywatności i w pełni się zgadza z owymi postanowieniami, w innym przypadku zaleca się opuszczenie serwisu.
@@ -74,7 +74,7 @@ export default function Terms() {
             2. Prawo odstąpienia od umowy zawartej na odległość nie przysługuje nabywcy w przypadku produktów, które z uwagi na charakter nie mogą zostać zwrócone. Brak możliwości zwrotu dotyczy publikacji elektronicznych.
           </p>
           <p className="mb-4 text-stone-700">
-            3. Reklamacje można składać drogą elektroniczną pod wskazany adres: protokolreset@gmail.com.
+            3. Reklamacje można składać drogą elektroniczną pod wskazany adres: projektreset1@gmail.com.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">§ 5 Postanowienia ogólne.</h2>
